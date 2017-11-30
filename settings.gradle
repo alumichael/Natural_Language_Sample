@@ -1,0 +1,5 @@
+include ':app'
+
+include ':Natural_Language'
+
+project(':Natural_Language').projectDir=new File(settingsDir,'../MyLibrary/Natural_Language')
